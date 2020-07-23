@@ -45,8 +45,8 @@ const IdeaForm = ({ idea, handleSubmit, handleChange, cancelPath}) => {
         <input
           className="Description-input"
           placeholder="Separated by comas"
-          value={idea.keywords}
-          name="keywords"
+          value={idea.keyarr}
+          name="keyarr"
           onChange={handleChange}
         />
         <br />
