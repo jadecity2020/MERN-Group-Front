@@ -7,7 +7,7 @@ import "./IdeaCreate.css";
 
 const IdeaCreate = (props) => {
   //   console.log('IdeaCreate props', props)
-  const [input, setInput] = useState({ username: props.username, title: "", desc: "", keywords: [], keyarr:''});
+  const [input, setInput] = useState({ username: props.username, title: "", desc: "", keywords: [], keyarr: ''});
   const [idea, setIdea] = useState(null);
   
   const handleChange = (event) => {
